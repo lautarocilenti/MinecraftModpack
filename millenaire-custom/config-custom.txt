@@ -18,6 +18,6 @@ random_uid=4622457302812043264
 advancements_creative=
 
 //Advancement completed for anonymous statistics
-advancements_survival=firstcontact,explorer,marcopolo
+advancements_survival=firstcontact,explorer,marcopolo,magellan
 
-validation=346190934
+validation=346190955
