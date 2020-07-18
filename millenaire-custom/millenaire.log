@@ -175,3 +175,24 @@
 7.2.1 12-07-2020 21:23:48 Starting new session. Mods: examplemod 
 7.2.1 12-07-2020 21:33:51 MAJOR: null: Loading language: en_us
 7.2.1 12-07-2020 21:34:00 MAJOR: null: LanguageData loaded: en_us. Wand invitem name: Wand of Summoning
+7.2.1 17-07-2020 22:02:13 Starting new session. Mods: examplemod 
+7.2.1 17-07-2020 22:06:03 MAJOR: null: Loading language: en_us
+7.2.1 17-07-2020 22:06:05 MAJOR: null: LanguageData loaded: en_us. Wand invitem name: Wand of Summoning
+7.2.1 17-07-2020 22:07:12 Error in ClientReceiver.onPacketData:
+7.2.1 17-07-2020 22:07:12 java.lang.NullPointerException
+	at org.millenaire.client.network.ClientReceiver.processPacket(ClientReceiver.java:111)
+	at org.millenaire.client.network.ClientReceiver.access$000(ClientReceiver.java:40)
+	at org.millenaire.client.network.ClientReceiver$1.run(ClientReceiver.java:72)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at net.minecraft.util.Util.func_181617_a(Util.java:529)
+	at net.minecraft.client.Minecraft.func_71411_J(Minecraft.java:1088)
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:3942)
+	at net.minecraft.client.main.Main.main(SourceFile:123)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+
